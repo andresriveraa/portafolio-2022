@@ -9,10 +9,11 @@ body {
   grid-template-columns: repeat(6, 1fr);
   gap: 12px;
   font-family: var(--secondaryFont);
-
 }
 
 main {
+  max-width: 1512px;
+  margin: auto;
     display: inherit;
     gap: inherit;
     grid-template-columns: inherit;

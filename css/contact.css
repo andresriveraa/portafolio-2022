@@ -1,14 +1,17 @@
 #contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 100vh;
+  display: inherit;
+  gap: inherit;
+  grid-template-columns: inherit;
 }
 
 
 .contact__title {
   margin-bottom: 80px;
   cursor: pointer;
+  margin-top: 20vh;
+  grid-column: 1 / span 5;
+
 }
 
 .contact__title a {
@@ -29,5 +32,6 @@
 @media screen and (min-width: 744px){
   .contact__title {
     margin-bottom: 160px;
+    grid-column: 1 / span 9;
   }
 }
