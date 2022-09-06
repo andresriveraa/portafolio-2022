@@ -39,5 +39,57 @@
 
 .hero__aboutMe {
   grid-column: 1 / -2;
+}
 
+@media screen and (min-width: 744px) {
+
+  .hero__img {
+    width: 56px;
+  }
+
+  .hero__description{
+    margin-bottom: 205px;
+  }
+  .hero__aboutMe {
+    text-align: right;
+    grid-column: 2 / -1;
+  }
+
+  .hero__img-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__title {
+    margin-top: 6vh;
+    grid-column: 1 / span 7;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  .hero__img-desktop {
+    display: inline;
+    width: 184px;
+    margin-bottom: 16px;
+    grid-column: -1 / -2;
+
+  }
+
+  .hero__description {
+    grid-column: 1 / span 8;
+    margin-bottom: 114px;
+   }
+
+   .hero__subtitle2  {
+    margin-bottom: 172px;
+   }
+
+   .hero__aboutMe {
+    text-align: left;
+    grid-column: 2 / span 9;
+
+   }
 }

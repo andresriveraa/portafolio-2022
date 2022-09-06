@@ -7,7 +7,6 @@
 
 
 .contact__title {
- margin-top: 48px;
   margin-bottom: 80px;
   cursor: pointer;
 }
@@ -25,4 +24,10 @@
 
 .contact__item {
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 744px){
+  .contact__title {
+    margin-bottom: 160px;
+  }
 }

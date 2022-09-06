@@ -13,11 +13,9 @@
 :read-only {
   --primaryFont: 'Montserrat';
   --secondaryFont: 'Roboto flex';
-  --mobile-max-size: '744 px';
-  --tablet-max-size: '1280 px';
+  --mobile-max-size: 744px;
+  --tablet-max-size: 1280px;
   --black: #000;
 }
 
-* {
-  margin: 0;
-}
+

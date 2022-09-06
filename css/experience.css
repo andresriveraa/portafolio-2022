@@ -24,3 +24,13 @@
   margin-bottom: 8px;
 
 }
+
+@media screen and (min-width: 744px) {
+  .experience__title {
+    margin-bottom: 96px;
+  }
+
+  .experience__item {
+    margin-bottom: 40px;
+  }
+}
