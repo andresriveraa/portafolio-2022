@@ -1,0 +1,26 @@
+#experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.experience__title {
+  grid-column: 1 / -1;
+  text-align: right;
+  margin-bottom: 56px;
+}
+
+.experience__item {
+  margin-bottom: 24px;
+}
+
+.experience__item:not(li:last-child) {
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+.experience__subtitle {
+  margin-bottom: 8px;
+
+}

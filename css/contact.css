@@ -1,0 +1,28 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.contact__title {
+ margin-top: 48px;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.contact__title a {
+  text-decoration: none;
+}
+
+.contact__list {
+  grid-column: 1 / -1;
+  text-align: right;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.contact__item {
+  margin-bottom: 16px;
+}
